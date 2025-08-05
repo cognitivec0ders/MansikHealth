@@ -74,7 +74,6 @@
             </form>
         </footer>
     </div>
-    <script src="config.js"></script>
     <script>
         
         const chatContainer = document.getElementById('chat-container');
@@ -95,7 +94,7 @@
         let chatHistory = [{ role: "user", parts: [{ text: systemPrompt }] }, { role: "model", parts: [{ text: "Understood. I am Layla, a supportive AI assistant. I will provide a safe space for users to talk about their feelings." }] }];
         
         
-        
+        const apiKey = "AIzaSyBjyLF78uAsJE1b1qqmB6EZqx2MRXpibkw";
 
         
         function appendMessage(sender, message, withDeeperDive = false) {
